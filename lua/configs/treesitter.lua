@@ -6,7 +6,7 @@ treesitter.setup(astronvim.user_plugin_opts("plugins.treesitter", {
   ignore_install = {},
   highlight = {
     enable = true,
-    additional_vim_regex_highlighting = false,
+    additional_vim_regex_highlighting = true,
   },
   context_commentstring = {
     enable = true,
@@ -15,11 +15,11 @@ treesitter.setup(astronvim.user_plugin_opts("plugins.treesitter", {
   rainbow = {
     enable = true,
     disable = { "html" },
-    extended_mode = false,
+    extended_mode = true,
     max_file_lines = nil,
   },
   autopairs = { enable = true },
   autotag = { enable = true },
   incremental_selection = { enable = true },
-  indent = { enable = false },
+  indent = { enable = true },
 }))

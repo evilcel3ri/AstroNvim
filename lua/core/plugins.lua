@@ -267,6 +267,11 @@ local astro_plugins = {
     event = "BufWritePost",
     config = function() require "configs.session_manager" end,
   },
+
+  -- User
+  ["adepasquale/vim-clamav"] = {},
+  ["s3rvac/vim-syntax-yara"] = {},
+  ["tpope/vim-surround"] = {},
 }
 
 if astronvim.updater.snapshot then
